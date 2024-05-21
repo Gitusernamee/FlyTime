@@ -7,6 +7,5 @@ namespace FlyTime.Core.Repositories
         void AddAirport(Airport airport);
         void UpdateAirport(Airport airport);
         void RemoveAirport(int id);
-        // Autres méthodes de repository si nécessaire
     }
 }
