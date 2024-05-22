@@ -1,6 +1,6 @@
 namespace FlyTime.Core.Repositories
 {
-    public interface IActivityRepository
+    public interface IActivityRepository: IRepository<Activity>
     {
         Activity GetActivityById(int id);
         IEnumerable<Activity> GetAllActivities();
